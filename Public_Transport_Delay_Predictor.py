@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pickle
 import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
@@ -297,12 +296,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    """Load the trained ensemble model"""
-    try:
-        return joblib.load("models/best_model.pkl")
-    except Exception:
-        with open("models/best_model.pkl", "rb") as f:
-            return pickle.load(f)
+    return joblib.load("models/best_model.pkl")
 
 model_bundle = load_model()
 
