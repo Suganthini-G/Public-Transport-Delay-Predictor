@@ -130,5 +130,5 @@ Designed for **Streamlit Cloud** deployment.
 -   `requirements.txt` for dependencies\
 -   `runtime.txt` to lock Python version (**3.10**)\
 -   Pre-trained model file included
--   
+   
 ------------------------------------------------------------------------
