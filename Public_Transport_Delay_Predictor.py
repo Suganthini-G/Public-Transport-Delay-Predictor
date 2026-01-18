@@ -613,9 +613,5 @@ st.markdown("---")
 st.markdown("""
     <div style="text-align: center; color: #666; padding: 1rem;">
         <p><strong>Sri Lanka Public Transport Delay Predictor</strong></p>
-        <p>IT5514 | Applied Machine Learning | 2026</p>
-        <p style="font-size: 0.8rem;">
-            258787E | 258828H
-        </p>
     </div>
 """, unsafe_allow_html=True)
